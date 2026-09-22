@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.powmcp/ssl-certificate-check",
+  "description": "Inspect one endpoint's served certificate, expiry, hostname coverage, and accepted TLS versions.",
+  "title": "SSL Certificate Check",
+  "version": "0.2.5",
+  "websiteUrl": "https://powmcp.com/apps/ssl-certificate-check/",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://powmcp.com/ssl-certificate-check/mcp"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/powmcp/mcp-server-guide",
+    "source": "github"
+  }
+}
