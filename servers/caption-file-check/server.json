@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.powmcp/caption-file-check",
+  "description": "Parse WebVTT, SRT, or TTML for conformance, timing, overlaps, line length, and reading speed.",
+  "title": "Caption File Check",
+  "version": "0.3.3",
+  "websiteUrl": "https://powmcp.com/apps/caption-file-check/",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://powmcp.com/caption-file-check/mcp"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/powmcp/mcp-server-guide",
+    "source": "github"
+  }
+}
